@@ -19,7 +19,8 @@ export default function Hero() {
           <h2>Venta de equipo y productos médicos</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua Gatsby.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Gatsby
+            2.0.
           </p>
           <button
             type="button"
