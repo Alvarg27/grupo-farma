@@ -1,16 +1,16 @@
-import React from "react"
-import "../style.css"
-import { useState, useEffect } from "react"
+import React from "react";
+import "../style.css";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
-  const [offsetY, setOffsetY] = useState(0)
-  const handleScroll = () => setOffsetY(window.pageYOffset)
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-  console.log(offsetY)
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  console.log(offsetY);
   return (
     <div id="hero" className="hero">
       <div className="background-circle"></div>
@@ -19,13 +19,13 @@ export default function Hero() {
           <h2>Venta de equipo y productos médicos</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Gatsby.
           </p>
           <button
             type="button"
-            onClick={e => {
-              e.preventDefault()
-              window.location.href = "mailto:m.ventas@grupogarmafr.com"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "mailto:m.ventas@grupogarmafr.com";
             }}
           >
             Contacto
@@ -41,5 +41,5 @@ export default function Hero() {
         />
       </div>
     </div>
-  )
+  );
 }
