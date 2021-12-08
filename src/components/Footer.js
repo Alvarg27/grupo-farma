@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="left-column">
           <img
             className="footer-image"
-            src="./images/iso.png"
+            src="./images/iso.webp"
             alt="footer-img"
             loading="lazy"
           />
