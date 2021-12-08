@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <nav>
         <Link to="#hero">
-          <img src="./images/logo.png" />
+          <img src="./images/logo.png" alt="logo" />
         </Link>
         <ul className="nav-links">
           <li>

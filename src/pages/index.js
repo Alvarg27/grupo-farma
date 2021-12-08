@@ -10,7 +10,11 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="Layout">
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "es",
+        }}
+      >
         <link rel="shortcut icon" href="images/logo-2.png" />
         <link rel="stylesheet" href="https://use.typekit.net/qtl8vrs.css" />
         <link
@@ -19,6 +23,14 @@ export default function Home() {
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
           crossorigin="anonymous"
         />
+        <meta
+          name="description"
+          content="Venta de equipo y productos médicos"
+        ></meta>
+        <meta
+          name="keywords"
+          content="Medicamentos, Equipo medico, equipo aduioviusal, equipo de laboratorio"
+        ></meta>
         <title>Grupo Farma</title>
       </Helmet>
       <Header />

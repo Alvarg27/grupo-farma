@@ -37,6 +37,8 @@ export default function Hero() {
         <img
           id="heroImage"
           src="./images/hero.png"
+          loading="lazy"
+          alt="hero-image"
           style={{ transform: `translateX(${offsetY * 0.5}px)` }}
           loading="lazy"
         />

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="background-circle"></div>
       <div className="row">
         <div className="left-column">
-          <img className="footer-image" src="./images/iso.png" />
+          <img className="footer-image" src="./images/iso.png" alt="footer-img" loading="lazy"/>
         </div>
         <div className="right-column">
           <ul className="footer-links">
@@ -27,7 +27,7 @@ export default function Footer() {
           </ul>
           <h2>Contacto</h2>
           <Link to="#hero">
-            <img src="./images/logo.png" width="200px" loading="lazy" />
+            <img src="./images/logo.png" alt="logo" width="200px" loading="lazy" />
           </Link>
           <ul className="contact-data">
             <li>
