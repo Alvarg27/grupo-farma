@@ -19,6 +19,7 @@ export default function Home() {
         <link
           rel="preload"
           as="font"
+          crossorigin
           href="https://use.typekit.net/qtl8vrs.css"
         />
         <link
@@ -27,6 +28,7 @@ export default function Home() {
           href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
           crossorigin="anonymous"
+          onload="this.rel='stylesheet'"
         />
         <meta
           name="description"
