@@ -49,6 +49,7 @@ button:hover {
 @media all and (max-width: 768px) {
   h2 {
     text-align: center;
+    font-size: 40px;
   }
 }
 /*    HEADER     */
@@ -221,6 +222,7 @@ nav ul li a:hover {
   .hero {
     padding: 15px;
     padding-top: 100px;
+    padding-bottom: 0px;
   }
   .hero h2 {
     text-align: left;
@@ -546,9 +548,8 @@ nav ul li a:hover {
 @media all and (max-width: 768px) {
   .clients .brand-card {
     width: 100%;
-  }
-  .clients .brand-card {
-    width: 30%;
+    margin: 10px;
+    width: 38%;
   }
   .clients .background-circle1 {
     left: 50%;
@@ -652,8 +653,12 @@ nav ul li a:hover {
   .footer {
     text-align: center;
   }
+  .footer-image {
+    width: 100%;
+  }
   .footer .row {
     flex-direction: column;
+    padding: 30px;
   }
   .footer .left-column {
     width: 100%;
