@@ -1,17 +1,17 @@
-import React from "react"
-import "../style.css"
-import { useState, useEffect } from "react"
-import ServicesCard from "./ServicesCard"
+import React from "react";
+import "../style.css";
+import { useState, useEffect } from "react";
+import ServicesCard from "./ServicesCard";
 
 export default function Services() {
-  const [offsetY, setOffsetY] = useState(0)
-  const handleScroll = () => setOffsetY(window.pageYOffset)
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-  console.log(offsetY)
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  console.log(offsetY);
   return (
     <div id="services" className="services">
       <div
@@ -22,8 +22,7 @@ export default function Services() {
       <div className="card-container">
         <ServicesCard
           icon="fas fa-pills"
-          description="Venta de medicamento controlado y patente."
-          info="Medicamento genérico del cuadro básico, y patente para el mayor alcance de la población. A un precio justo y con un servicio íntegro al cliente"
+          description="Venta de medicamento genérico y patente."
         />
         <ServicesCard
           icon="fas fa-assistive-listening-systems"
@@ -39,5 +38,5 @@ export default function Services() {
         />
       </div>
     </div>
-  )
+  );
 }

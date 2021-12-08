@@ -16,11 +16,11 @@ export default function Hero() {
       <div className="background-circle"></div>
       <div className="left-column">
         <div style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
-          <h2>Venta de equipo y productos médicos</h2>
+          <h2>Venta de medicamento genérico y patente.</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua Gatsby
-            2.0.
+            Medicamento genérico del cuadro básico, y patente para el mayor
+            alcance de la población. A un precio justo y con un servicio íntegro
+            al cliente
           </p>
           <button
             type="button"

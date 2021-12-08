@@ -40,7 +40,7 @@ export default function About() {
           <AboutCard
             img="./images/mision.webp"
             title="Misión"
-            description="Empresa responsable con el manejo de los productos de la salud, con un nivel de atención de primer nivel, a precios accesibles."
+            description="Empresa responsable con el manejo de los productos de la salud, con un nivel de atención de primer nivel, para el alcance de toda la población a precios justos."
           />
           <AboutCard
             img="./images/vision.webp"
