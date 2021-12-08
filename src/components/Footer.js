@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
-import React from "react"
-import "../style.css"
+import { Link } from "gatsby";
+import React from "react";
+import "../style.css";
 
 export default function Footer() {
   return (
@@ -22,7 +22,7 @@ export default function Footer() {
               <Link to="#clients">Clientes</Link>
             </li>
             <li>
-              <Link to="#proveedores">Provedores</Link>
+              <Link to="#proveedores">Proveedores</Link>
             </li>
           </ul>
           <h2>Contacto</h2>
@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
           <ul className="contact-data">
             <li>
-              <Link>ventas@grupogarmafr.com</Link>
+              <Link>ventas@grupofarmafr.com</Link>
             </li>
             <li>
               <Link>443 396 0900</Link>
@@ -43,5 +43,5 @@ export default function Footer() {
         <p>© Copyright 2021, Grupo Farma</p>
       </div>
     </div>
-  )
+  );
 }

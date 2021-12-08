@@ -1,10 +1,10 @@
-import { Link } from "gatsby"
-import React from "react"
-import { useState } from "react"
-import "../style.css"
+import { Link } from "gatsby";
+import React from "react";
+import { useState } from "react";
+import "../style.css";
 
 export default function Header() {
-  const [isActive, setIsActive] = useState(false)
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <header>
@@ -28,20 +28,22 @@ export default function Header() {
         </ul>
         <button
           type="button"
-          onClick={e => {
-            e.preventDefault()
-            window.location.href = "mailto:m.ventas@grupogarmafr.com"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "mailto:m.ventas@grupogarmafr.com";
           }}
         >
           Contacto
         </button>
-        <div className="nav-icon" onClick={e => setIsActive(!isActive)}>
+        <div className="nav-icon" onClick={(e) => setIsActive(!isActive)}>
           <i className={isActive ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </nav>
-      <div onClick={e => setIsActive(!isActive)}>{isActive && Dropdown()}</div>
+      <div onClick={(e) => setIsActive(!isActive)}>
+        {isActive && Dropdown()}
+      </div>
     </header>
-  )
+  );
 }
 function Dropdown() {
   return (
@@ -58,15 +60,15 @@ function Dropdown() {
             <Link to="#clients">Clientes</Link>
           </li>
           <li>
-            <Link to="#proveedores">Provedores</Link>
+            <Link to="#proveedores">Proveedores</Link>
           </li>
           <li>
             {" "}
             <button
               type="button"
-              onClick={e => {
-                e.preventDefault()
-                window.location.href = "mailto:m.ventas@grupogarmafr.com"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "mailto:m.ventas@grupogarmafr.com";
               }}
             >
               Contacto
@@ -75,5 +77,5 @@ function Dropdown() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
