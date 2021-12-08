@@ -21,6 +21,7 @@ export default function Home() {
           as="font"
           crossorigin
           href="https://use.typekit.net/qtl8vrs.css"
+          onload="this.rel='stylesheet'"
         />
         <link
           rel="preload"
