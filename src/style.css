@@ -612,11 +612,6 @@ nav ul li a:hover {
   align-content: center;
   justify-content: center;
 }
-.footer .copyright p {
-  margin: auto;
-  padding: 10px 0;
-  color: black;
-}
 .footer-links {
   display: flex;
 }
@@ -649,6 +644,16 @@ nav ul li a:hover {
   z-index: 1;
   opacity: 0.5;
 }
+.footer p {
+  color: black;
+  font-size: 18px;
+}
+.footer small {
+  color: black;
+  font-size: 12px;
+  padding: 10px 0;
+  margin: auto;
+}
 @media all and (max-width: 768px) {
   .footer {
     text-align: center;
@@ -670,5 +675,8 @@ nav ul li a:hover {
   img,
   h2 {
     margin: auto;
+  }
+  .footer p {
+    text-align: center;
   }
 }

@@ -15,14 +15,15 @@ export default function Home() {
           lang: "es",
         }}
       >
-        <link rel="shortcut icon" href="images/logo-2.png" />
         <link
-          rel="preload"
+          rel="stylesheet"
           as="font"
-          crossorigin
+          crossorigin="true"
           href="https://use.typekit.net/qtl8vrs.css"
           onload="this.rel='stylesheet'"
+          data-react-helmet="true"
         />
+        <link rel="shortcut icon" href="images/logo-2.png" />
         <link
           rel="preload"
           as="style"
