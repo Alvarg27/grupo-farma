@@ -430,6 +430,7 @@ nav ul li a:hover {
   .about .left-column {
     flex-direction: column;
     width: 100%;
+    padding-left: 0px;
   }
   .about .right-column {
     flex-direction: column;
