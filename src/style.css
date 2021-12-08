@@ -560,7 +560,7 @@ nav ul li a:hover {
   .clients .background-circle2 {
     visibility: hidden;
   }
-  .clients .p {
+  .clients p {
     text-align: center;
   }
 }
