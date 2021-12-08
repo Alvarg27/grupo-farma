@@ -211,7 +211,7 @@ nav ul li a:hover {
   display: flex;
   z-index: 2;
 }
-.hero img {
+.hero-image {
   width: 80%;
   margin: auto;
 }
@@ -227,7 +227,7 @@ nav ul li a:hover {
   .hero h2 {
     text-align: left;
   }
-  .hero img {
+  .hero.image {
     width: 300px;
     padding-left: 0px;
   }

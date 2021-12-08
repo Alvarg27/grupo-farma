@@ -1,10 +1,11 @@
 import React from "react";
 import "../style.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function BrandsCard(props) {
   return (
     <div className="brand-card">
-      <img src={props.img} loading="lazy" alt="brand" />
+      <img src={props.img} alt="brand" />
     </div>
   );
 }

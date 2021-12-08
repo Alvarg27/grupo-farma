@@ -34,7 +34,7 @@ export default function Footer() {
           <h2>Contacto</h2>
           <Link to="#hero">
             <img
-              src="./images/logo.png"
+              src="./images/logo.webp"
               alt="logo"
               width="200px"
               loading="lazy"

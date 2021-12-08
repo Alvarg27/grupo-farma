@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <nav>
         <Link to="#hero">
-          <img src="./images/logo.png" alt="logo" />
+          <img src="./images/logo.webp" alt="logo" />
         </Link>
         <ul className="nav-links">
           <li>
@@ -30,7 +30,7 @@ export default function Header() {
           type="button"
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = "mailto:m.ventas@grupogarmafr.com";
+            window.location.href = "mailto:ventas@grupogarmafr.com";
           }}
         >
           Contacto
@@ -68,7 +68,7 @@ function Dropdown() {
               type="button"
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "mailto:m.ventas@grupogarmafr.com";
+                window.location.href = "mailto:ventas@grupogarmafr.com";
               }}
             >
               Contacto

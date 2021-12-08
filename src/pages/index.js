@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import About from "../components/About";
 import Clients from "../components/Clients";
 import Footer from "../components/Footer";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default function Home() {
   return (

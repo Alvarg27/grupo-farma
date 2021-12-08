@@ -26,21 +26,22 @@ export default function Hero() {
             type="button"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = "mailto:m.ventas@grupogarmafr.com";
+              window.location.href = "mailto:ventas@grupogarmafr.com";
             }}
           >
             Contacto
           </button>
         </div>
       </div>
-      <div className="right-column">
+      <div
+        style={{ transform: `translateX(${offsetY * 0.5}px)` }}
+        className="right-column"
+      >
         <img
+          className="hero-image"
           id="heroImage"
-          src="./images/hero.png"
-          loading="lazy"
+          src="./images/hero.webp"
           alt="hero-image"
-          style={{ transform: `translateX(${offsetY * 0.5}px)` }}
-          loading="lazy"
         />
       </div>
     </div>
