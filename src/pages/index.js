@@ -16,9 +16,9 @@ export default function Home() {
         }}
       >
         <link rel="shortcut icon" href="images/logo-2.png" />
-        <link rel="stylesheet" href="https://use.typekit.net/qtl8vrs.css" />
+        <link rel="preconnect" href="https://use.typekit.net/qtl8vrs.css" />
         <link
-          rel="stylesheet"
+          rel="preconnect"
           href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
           crossorigin="anonymous"
