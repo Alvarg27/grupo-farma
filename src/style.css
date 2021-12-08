@@ -49,7 +49,6 @@ button:hover {
 @media all and (max-width: 768px) {
   h2 {
     text-align: center;
-    font-size: 40px;
   }
 }
 /*    HEADER     */
@@ -228,7 +227,7 @@ nav ul li a:hover {
   }
   .hero img {
     width: 300px;
-    padding-left: 0px;
+    padding-left: 60px;
   }
 }
 /*    SERVICES    */
@@ -549,9 +548,7 @@ nav ul li a:hover {
     width: 100%;
   }
   .clients .brand-card {
-    width: 36%;
-    padding: 0px;
-    margin: 10px;
+    width: 30%;
   }
   .clients .background-circle1 {
     left: 50%;
@@ -560,9 +557,12 @@ nav ul li a:hover {
   .clients .background-circle2 {
     visibility: hidden;
   }
+<<<<<<< HEAD
   .clients p {
     text-align: center;
   }
+=======
+>>>>>>> parent of f562fc89 (update)
 }
 /*    FOOTER   */
 .footer {
@@ -657,7 +657,6 @@ nav ul li a:hover {
   }
   .footer .row {
     flex-direction: column;
-    padding: 30px;
   }
   .footer .left-column {
     width: 100%;
@@ -669,8 +668,5 @@ nav ul li a:hover {
   img,
   h2 {
     margin: auto;
-  }
-  .footer-image {
-    width: 100%;
   }
 }
