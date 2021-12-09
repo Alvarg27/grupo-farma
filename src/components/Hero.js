@@ -18,9 +18,9 @@ export default function Hero() {
         <div style={{ transform: `translateY(-${offsetY * 0.5}px)` }}>
           <h2>Venta de medicamento genérico y patente.</h2>
           <p>
-            Medicamento genérico del cuadro básico, y patente para el mayor
+            Medicamento genérico del cuadro básico y patente para el mayor
             alcance de la población. A un precio justo y con un servicio íntegro
-            al cliente
+            al cliente.
           </p>
           <button
             type="button"

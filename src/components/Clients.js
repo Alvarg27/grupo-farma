@@ -23,8 +23,8 @@ export default function Clients() {
       ></div>
       <h2>Clientes</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Estas son algunas de las instituciones a las que le prestamos nuestros
+        servicios.
       </p>
       <div className="card-container">
         <BrandsCard img="./images/clientes/sedena.webp" />
@@ -38,8 +38,8 @@ export default function Clients() {
       </div>
       <h2 id="proveedores">Proveedores</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Trabajamos de la mano con empresas del más alto nivel para ofrecerte el
+        mejor servicio.
       </p>
       <div className="card-container">
         <BrandsCard img="./images/proveedores/pfizer.webp" />
