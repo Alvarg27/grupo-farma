@@ -11,7 +11,6 @@ export default function Services() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  console.log(offsetY);
   return (
     <div id="services" className="services">
       <div

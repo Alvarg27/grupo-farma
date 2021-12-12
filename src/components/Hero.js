@@ -10,7 +10,6 @@ export default function Hero() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  console.log(offsetY);
   return (
     <div id="hero" className="hero">
       <div className="background-circle"></div>

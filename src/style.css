@@ -227,9 +227,8 @@ nav ul li a:hover {
   .hero h2 {
     text-align: left;
   }
-  .hero.image {
+  .hero-image {
     width: 300px;
-    padding-left: 0px;
   }
 }
 /*    SERVICES    */
