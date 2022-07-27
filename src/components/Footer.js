@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import "../style.css";
+import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   const today = new Date();
@@ -40,12 +41,29 @@ export default function Footer() {
               loading="lazy"
             />
           </Link>
+          <div className="footer-icons-container">
+            <Link to="" target="_blank">
+              <FaFacebookSquare className="footer-icon" />
+            </Link>
+            <Link to="https://www.instagram.com/grupofarmafr/" target="_blank">
+              <FaInstagram className="footer-icon" />
+            </Link>
+            <Link target="_blank">
+              <FaTwitter className="footer-icon" />
+            </Link>
+          </div>
           <ul className="contact-data">
             <li>
               <p>ventas@grupofarmafr.com</p>
             </li>
             <li>
-              <p>443 396 0900</p>
+              <p>+52 442 225 3435</p>
+            </li>
+            <li>
+              <p>+52 443 396 0900</p>
+            </li>
+            <li>
+              <p>+52 442 620 3885</p>
             </li>
           </ul>
         </div>

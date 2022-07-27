@@ -594,7 +594,7 @@ nav ul li a:hover {
   z-index: 2;
 }
 .contact-data li {
-  padding: 10px 0px;
+  padding: 0px 0px;
 }
 .footer-image {
   margin: auto;
@@ -649,6 +649,19 @@ nav ul li a:hover {
   font-size: 12px;
   padding: 10px 0;
   margin: auto;
+}
+.footer .footer-icons-container {
+  margin: 15px 0 0 0;
+}
+.footer .footer-icon {
+  font-size: 25px;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer .footer-icon:hover {
+  transform: scale(120%);
 }
 @media all and (max-width: 768px) {
   .footer {
