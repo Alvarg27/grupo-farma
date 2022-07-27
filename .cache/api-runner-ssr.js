@@ -1,6 +1,10 @@
 var plugins = [{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/alvargarcia/Documents/GitHub/grupo-farma/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/alvargarcia/Documents/GitHub/grupo-farma/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
+      name: 'partytown',
+      plugin: require('/Users/alvargarcia/Documents/GitHub/grupo-farma/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */
