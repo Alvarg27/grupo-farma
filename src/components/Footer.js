@@ -42,14 +42,14 @@ export default function Footer() {
             />
           </Link>
           <div className="footer-icons-container">
-            <Link to="" target="_blank">
+            <Link
+              to="https://www.facebook.com/profile.php?id=100083714029696"
+              target="_blank"
+            >
               <FaFacebookSquare className="footer-icon" />
             </Link>
             <Link to="https://www.instagram.com/grupofarmafr/" target="_blank">
               <FaInstagram className="footer-icon" />
-            </Link>
-            <Link target="_blank">
-              <FaTwitter className="footer-icon" />
             </Link>
           </div>
           <ul className="contact-data">

@@ -63,7 +63,6 @@ function Dropdown() {
             <Link to="#proveedores">Proveedores</Link>
           </li>
           <li>
-            {" "}
             <button
               type="button"
               onClick={(e) => {
